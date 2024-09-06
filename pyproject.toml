@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "drweb-test"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Erofeev <d.erofeev@napoleonit.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.113.0"
+pydantic = "^2.9.0"
+uvicorn = "^0.30.6"
+aiosqlite = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
